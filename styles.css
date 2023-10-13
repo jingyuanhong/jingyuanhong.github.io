@@ -9,7 +9,13 @@ header, nav, main, footer {
 }
 
 header h1 {
-    color: #333;
+    color: #000000;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
 }
 
 .profile-image {
@@ -18,19 +24,52 @@ header h1 {
     margin-bottom: 20px;
 }
 
-nav a {
+nav a:hover {
     text-decoration: none;
     margin-right: 10px;
-    color: #800020;
+    color: #416666;
+}
+
+nav a:active {
+    color: #416666;
+}
+
+nav a {
+    color: red;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+.custom-link {
+    color: #8d0527;
+}
+
+
 footer {
     border-top: 1px solid #ddd;
     margin-top: 20px;
     padding-top: 10px;
     text-align: center;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 32px;  /* size */
+    margin: 0 10px; /* gap */
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
 }
