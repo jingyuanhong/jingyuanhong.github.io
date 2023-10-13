@@ -18,10 +18,15 @@ header h1 {
     align-items: flex-start; 
 }
 
-.profile-image {
+/* .profile-image {
     width: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
+} */
+.profile-image {
+    width: 8rem;
+    height: auto;  /* 这将保持原始图像的纵横比 */
+    border-radius: 50%;
 }
 
 nav a:hover {
@@ -57,12 +62,19 @@ footer {
 .social-links {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
+/* .social-icon {
+    width: 32px;  
+    margin: 0 10px;
+    transition: 0.3s;
+} */
+
 .social-icon {
-    width: 32px;  /* size */
-    margin: 0 10px; /* gap */
+    width: 1.5rem;
+    margin: 0 0.5rem;
+    height: auto;
     transition: 0.3s;
 }
 
