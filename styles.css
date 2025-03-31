@@ -94,7 +94,7 @@ a {
 }
 
 .research-image {
-    max-width: 100rem;
+    max-width: 20px;
     height: auto;
     object-fit: contain;
 }
