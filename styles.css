@@ -85,3 +85,16 @@ footer {
 a {
     text-decoration: none;
 }
+
+.research-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.research-image {
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+}
