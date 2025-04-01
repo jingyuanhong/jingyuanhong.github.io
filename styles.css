@@ -98,3 +98,15 @@ a {
     height: auto;
     object-fit: contain;
 }
+
+.indent-list {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.flat-list {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
