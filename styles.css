@@ -107,6 +107,7 @@ a {
 
 .flat-list {
     margin-left: 0;
-    padding-left: 0;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
     list-style-position: inside;
 }
