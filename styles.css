@@ -3,6 +3,9 @@ body {
     margin: 40px;
     line-height: 1.6;
 }
+p {
+    line-height: 1.2;
+}
 
 header, nav, main, footer {
     margin-bottom: 20px;
